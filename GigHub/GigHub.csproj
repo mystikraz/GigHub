@@ -226,6 +226,10 @@
     <Compile Include="Migrations\201702250746520_ReAddForeignKeyProperties.Designer.cs">
       <DependentUpon>201702250746520_ReAddForeignKeyProperties.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703041252445_AddNameToApplicationUser.cs" />
+    <Compile Include="Migrations\201703041252445_AddNameToApplicationUser.Designer.cs">
+      <DependentUpon>201703041252445_AddNameToApplicationUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Genre.cs" />
@@ -327,6 +331,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201702250746520_ReAddForeignKeyProperties.resx">
       <DependentUpon>201702250746520_ReAddForeignKeyProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703041252445_AddNameToApplicationUser.resx">
+      <DependentUpon>201703041252445_AddNameToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
